@@ -31,7 +31,7 @@ void update_sensor();
 void updateSystem();
 void setup();
 void loop();
-#line 36 "C:/Users/Admin/OneDrive/Documents/PlatformIO/Projects/260909-095733-4d_systems_esp32s3_gen4_r8n16/src/Code_sieu_chuan_4.ino"
+
 void controlPump(int state) {
   if (state == 1) {
     digitalWrite(pumpPin, LOW);
